@@ -24,7 +24,7 @@ app.get('/response',function(req,res){
         if(err){
             console.log(err);
         }
-        res.send(response.data);//not response.values!!
+        res.send(JSON.stringify(response.data.values));
     });
 })
 
