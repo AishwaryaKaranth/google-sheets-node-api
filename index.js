@@ -15,7 +15,7 @@ const sheets=google.sheets('v4')
     console.log(token)
 })*/
 
-const spreadsheetId='1whVd5WrTsB3YF8czM9YyFWndQ9DsCimhHjGxbcuhHPo'
+const spreadsheetId=''
 app.get('/response',function(req,res){
     sheets.spreadsheets.values.get({
         spreadsheetId,
